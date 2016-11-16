@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hometv" name="HomeTV - telewizja za darmo" version="1.2.3" provider-name="SzymPvP">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">HomeTV - telewizja za darmo</summary>
+    <description lang="en_gb">dzieki HomeTV mozesz ogladac polskie kanaly telewizyjne zupelnie za darmo!</description>
+    <language>Polish</language>
+    <platform>all</platform>
+    <license>GNU General Public License v3.0</license>
+    <email>szympvp@wp.pl</email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
